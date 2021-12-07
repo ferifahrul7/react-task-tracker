@@ -38,4 +38,13 @@
             @apply bg-landing-hitam text-gray-200
         }
     }
+    .form-control {
+        @apply px-4 py-2 rounded-md border-2 border-indigo-300 bg-indigo-100 w-1/2
+    }
+    .form-control:focus {
+        @apply shadow-md outline-none placeholder-white border-indigo-200
+    }
+    .add-form {
+        @apply w-full text-left m-8
+    }
 }
