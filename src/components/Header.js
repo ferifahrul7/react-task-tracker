@@ -4,12 +4,12 @@ import Button from './Button';
 const Header = ({ title }) => {
 	
 const klikMas = (e) => {
-	alert('awokawok2');
+	console.log("Klik")
 }
 	return (
 		<header className="flex flex-row justify-between p-8">
 			<h1>{title}</h1>
-			<Button color="blue" text="Hello" onClick={klikMas}></Button>
+			<Button color="blue" text="Add" onClick={klikMas}></Button>
 		</header>
 	)
 }
